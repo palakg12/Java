@@ -1,0 +1,18 @@
+Java divides the operators into the following groups:
+
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Bitwise operators
+
+
+Arithmetic operators are used to perform common mathematical operations.
+
+> +	 Addition	
+> -	 Subtraction	
+> *	 Multiplication	
+> /	 Division		
+> %	 Modulus	
+> ++ Increment	
+> -- Decrement	
