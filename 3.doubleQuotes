@@ -1,0 +1,9 @@
+Use double quotes inside print line when you want to print that line .
+EX: System.out.println("Hello World!");
+
+
+
+Dont use double quotes where you want to print the solution.
+EX: System.out.println(3);
+    System.out.println(358+358);
+   

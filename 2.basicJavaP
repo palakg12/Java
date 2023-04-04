@@ -13,7 +13,7 @@ public static void main :The keyword public static void main is the means by whi
 you create a main method within the Java application.
 
 Public:- it is an access specifier that means it will be 
-accessed by publically. 
+accessed by publically. We should use a public keyword before the main() method so that JVM can identify the execution point of the program. If we use private, protected, and default before the main() method, it will not be visible to JVM.
 Static:- it is access modifier that means when the java
 program is load then it will create the space in memory 
 automatically.

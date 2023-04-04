@@ -1,0 +1,12 @@
+Comments are used when you want to ignore a part of the code.
+
+
+Single Line Comments:
+EX:// This is a comment
+   System.out.println("Hello World");
+
+
+Multi Line Comment :
+EX: /* The code below will print the words Hello World
+    to the screen, and it is amazing */
+    System.out.println("Hello World");
