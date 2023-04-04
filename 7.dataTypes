@@ -1,0 +1,11 @@
+A variable in Java must be a specified data type:
+Data types are divided into two groups:
+
+> Primitive data types - includes byte, short, int, long, float, double, boolean and char
+> Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)
+
+
+> Primitive number types are divided into two groups:
+
+~ Integer types stores whole numbers, positive or negative (such as 123 or -456), without decimals. Valid types are byte, short, int and long. Which type you should use, depends on the numeric value.
+~ Floating point types represents numbers with a fractional part, containing one or more decimals. There are two types: float and double.

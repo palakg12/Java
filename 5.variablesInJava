@@ -1,5 +1,6 @@
 Variables are containers for storing data values.
 
+A variable in Java must be a specified data type:
 In Java, there are different types of variables, for example:
 
 => String - stores text, such as "Hello". String values are surrounded by double quotes
