@@ -5,7 +5,41 @@ Data types are divided into two groups:
 > Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)
 
 
+                                          PRIMITIVE DATA TYPES :
 > Primitive number types are divided into two groups:
-
 ~ Integer types stores whole numbers, positive or negative (such as 123 or -456), without decimals. Valid types are byte, short, int and long. Which type you should use, depends on the numeric value.
 ~ Floating point types represents numbers with a fractional part, containing one or more decimals. There are two types: float and double.
+
+  Byte: The byte data type can store whole numbers from -128 to 127. This can be used instead of int or other integer types to save memory when you are certain that the value will be within -128 and 127.
+  Short: The short data type can store whole numbers from -32768 to 32767:
+  Int: The int data type can store whole numbers from -2147483648 to 2147483647. In general, and in our tutorial, the int data type is the preferred data type when we create variables with a numeric value.
+  Long: The long data type can store whole numbers from -9223372036854775808 to 9223372036854775807. This is used when int is not large enough to store the value. Note that you should end the value with an "L".
+  Floating Point Types: You should use a floating point type whenever you need a number with a decimal, such as 9.99 or 3.14515.
+The float and double data types can store fractional numbers. Note that you should end the value with an "f" for floats and "d" for doubles.
+
+>Boolean : Java has a boolean data type, which can only take the values true or false:
+   EX: boolean isJavaFun = true;
+       boolean isFishTasty = false;
+       System.out.println(isJavaFun);     // Outputs true
+       System.out.println(isFishTasty);   // Outputs false
+
+>Char : The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
+   Ex : char myGrade = 'B';
+        System.out.println(myGrade);
+
+> String : The String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
+   EX : String greeting = "Hello World";
+        System.out.println(greeting);
+ 
+ 
+
+                                           NON PRIMITIVE DATA TYPES :
+Non-primitive data types are called reference types because they refer to objects.
+
+The main difference between primitive and non-primitive data types are:
+=> Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+=> Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+=> A primitive type has always a value, while non-primitive types can be null.
+=> A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+=> The size of a primitive type depends on the data type, while non-primitive types have all the same size.
+=> Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc.
