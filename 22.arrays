@@ -1,0 +1,18 @@
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+To create an array of string, you could write:
+  String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+To create an array of integers, you could write:
+  int[] myNum = {10, 20, 30, 40};
+
+ACESSING THE ELEMENTS OF AN ARRAY :
+ex: String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    System.out.println(cars[0]);
+    // Outputs Volvo
+
+ARRAY LENGTH :
+To find out how many elements an array has, use the length property:
+
+Ex: String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+    System.out.println(cars.length);
+    // Outputs 4
+
