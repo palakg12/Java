@@ -1,0 +1,49 @@
+Example : Create a class called "Main" with two attributes: 
+          x and y:
+
+         public class Main {
+           int x = 5;
+           int y = 3;
+         }
+
+Another term for class attributes is fields.
+
+ACCESSING ATTRIBUTES :
+You can access attributes by creating an object of the class, and by using the dot syntax (.):
+EX :
+public class Main {
+  int x = 5;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj.x);
+  }
+}
+
+MODIFY ATTRIBUTES :
+EX :
+public class Main {
+  int x;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 40;
+    System.out.println(myObj.x);
+  }
+}
+
+Or override existing values:
+
+EX : Change the value of x to 25:
+public class Main {
+  int x = 10;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 25; // x is now 25
+    System.out.println(myObj.x);
+  }
+}
+ 
+ 
+
