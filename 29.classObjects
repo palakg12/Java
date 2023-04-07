@@ -1,0 +1,25 @@
+class        |        objects
+Fruit        |  Apple ,Banana , Mango
+ 
+So, a class is a template for objects, and an object is an instance of a class.
+When the individual objects are created, they inherit all the variables and methods from the class.
+
+
+==> To create a class, use the keyword class:
+
+Create a class named "Main" with a variable x:
+Example : public class Main {
+            int x = 5;
+          }
+
+
+==> To create an object :
+
+Example : public class Main {
+            int x = 5;
+
+          public static void main(String[] args) {
+          Main myObj = new Main();
+          System.out.println(myObj.x);
+            }
+          }
